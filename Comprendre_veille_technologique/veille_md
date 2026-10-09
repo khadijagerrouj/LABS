@@ -1,6 +1,14 @@
-# veille technologie:
+---
+marp: true
+theme: default
+paginate: true
+---
+
+# veille technologie :
 
 La veille technologique consiste à rechercher et suivre régulièrement les nouvelles technologies pour rester à jour.
+
+----
 
 # Ses objectifs :
 
@@ -11,6 +19,8 @@ Apprendre de nouvelles compétences.
 Améliorer son travail.
 
 Choisir les bons outils.
+
+----
 
 # Comment faire une veille technologique ?
 
@@ -24,6 +34,7 @@ Pour faire une veille technologique, il faut suivre 4 étapes :
 
 **Partager :** résumer et partager les informations importantes avec son équipe.
 
+----
 
 # Les étapes : Rechercher → Suivre → Tester → Partager.
 

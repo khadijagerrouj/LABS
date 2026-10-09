@@ -1,8 +1,16 @@
+---
+marp: true
+theme: default
+paginate: true
+---
+
 # Antigravity : Documentation simplifiée
 
 ## 1. Qu’est-ce qu’Antigravity ?
 
 Antigravity est un environnement de développement basé sur des agents d’intelligence artificielle. Ces agents peuvent planifier des tâches, écrire du code, exécuter des commandes et tester le travail réalisé. Le développeur supervise les actions de l’agent et vérifie les résultats.
+
+-----
 
 ## 2. Le déroulement du travail
 
@@ -14,6 +22,8 @@ Le workflow se compose de quatre étapes :
 2. **Vérifier (Review)** : lire le plan et demander des modifications si nécessaire avant de modifier les fichiers.
 3. **Exécuter (Execute)** : autoriser l’agent à réaliser le travail.
 4. **Tester (Verify)** : vérifier soi-même que le résultat fonctionne correctement.
+
+------
 
 ## 3. Structure d’un prompt
 
@@ -31,6 +41,7 @@ Un bon prompt contient les éléments suivants :
 
 Les éléments essentiels sont l’objectif, le contexte, le périmètre et la condition de réussite.
 
+------
 ### Exemple de prompt
 
 ```text
@@ -42,6 +53,7 @@ Déroulement : proposer un plan et attendre mon approbation.
 Condition de réussite : pouvoir ajouter, afficher et supprimer des tâches.
 Résultat : résumer les modifications effectuées.
 ```
+-------
 
 ## 4. Les Rules et les Skills
 
@@ -52,6 +64,7 @@ Les Rules et les Skills permettent de guider l’agent, mais ils ont des rôles 
 | Rules (Règles)       | Définir des consignes permanentes                      | Préciser le rôle de l’agent et les règles à respecter |
 | Skills (Compétences) | Fournir une méthode réutilisable pour certaines tâches | Réaliser des tâches spécifiques, comme créer un CRUD  |
 
+------
 ### A. Créer une Rule
 
 Une Rule définit les règles que l’agent doit suivre.
@@ -64,6 +77,10 @@ Tu es un développeur backend spécialisé en Laravel.
 - Présente toujours un plan avant de modifier les fichiers.
 - Ne modifie jamais le fichier .env.
 ```
+
+
+
+-----
 
 ### B. Créer une Skill
 
@@ -83,6 +100,7 @@ description: Créer un CRUD complet avec Laravel.
 2. Créer le contrôleur avec validation.
 3. Ajouter les routes et les vues Blade.
 ```
+------
 
 ### C. Demander à l’agent d’utiliser les Rules et les Skills
 
@@ -99,6 +117,7 @@ Utilise la Skill laravel-crud pour cette tâche.
 
 Les chemins et les conventions de fichiers peuvent varier selon la version et la configuration d’Antigravity.
 
+------
 ## 5. MCP (Model Context Protocol)
 
 MCP est un protocole qui permet de connecter un agent d’intelligence artificielle à des outils et à des services externes, par exemple GitHub, Google Drive ou certaines bases de données.
@@ -111,6 +130,8 @@ MCP est un protocole qui permet de connecter un agent d’intelligence artificie
 4. Ouvrir « View raw config ».
 5. Ajouter la configuration du serveur dans `mcp_config.json`.
 6. Enregistrer, actualiser la configuration et redémarrer Antigravity si nécessaire.
+
+-----
 
 ### Exemple de configuration pour GitHub
 
@@ -129,6 +150,8 @@ MCP est un protocole qui permet de connecter un agent d’intelligence artificie
 
 **Attention :** cet exemple est indicatif. Il faut vérifier que le serveur est compatible avec la version d’Antigravity utilisée. Le jeton d’accès doit rester secret et ne doit pas être partagé ou enregistré directement dans un dépôt public.
 
+-----
+
 ## 6. Exercices pratiques
 
 ### Exercice 1 : Créer une application Todo
@@ -146,6 +169,8 @@ Demander à un agent de travailler sur le frontend et à un autre de travailler 
 ### Exercice 4 : Corriger un bug
 
 Introduire une erreur dans un projet, demander à l’agent de l’identifier et de la corriger, puis vérifier le résultat.
+
+------
 
 ## Conclusion
 
