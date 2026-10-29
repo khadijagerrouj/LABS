@@ -33,6 +33,13 @@ style: |
 
 Git · Windows · VS Code 
 
+
+<div class ="by">
+<strong>Khadija Gerrouj</strong>
+
+Encadre:Essarraj Fouad
+</div>
+
 ---
 # Plan
 1. Les problèmes
