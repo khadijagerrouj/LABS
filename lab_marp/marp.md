@@ -189,6 +189,10 @@ style: |
 
 # Découverte de Marp
 
+
+*Presenter par: khadija gerrouj*
+*Encadre : Essarraj Fouad*
+
 ---
 
 <!-- _class: light -->

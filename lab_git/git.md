@@ -10,9 +10,10 @@ paginate: true
 
 ### Version Control et collaboration
 
+ 
+*Presenter par: khadija gerrouj*
+*Encadre : Essarraj Fouad*
 
-Présenté par : Oumaima Mahfoud
-SOLICODE
 
 ---
 # Plan de la présentation

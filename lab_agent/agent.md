@@ -7,6 +7,9 @@ size: 16:9
 
 # lab-agent
 
+*Presenter par: khadija gerrouj*
+*Encadre : Essarraj Fouad*
+
 ---
 
 <!-- _class: light -->

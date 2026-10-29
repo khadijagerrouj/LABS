@@ -4,7 +4,12 @@ theme: default
 paginate: true
 ---
 
-# Antigravity : Documentation simplifiée
+# Antigravity :
+
+*Presenter par: khadija gerrouj*
+*Encadre : Essarraj Fouad*
+
+---
 
 ## 1. Qu’est-ce qu’Antigravity ?
 

@@ -10,7 +10,6 @@ paginate: true
 
 - Framework PHP pour le développement Web
 - Son rôle • ses outils • ses usages
-
 ---
 
 ## Plan de la présentation
