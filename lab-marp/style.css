@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --bg-main: #f5f7fb;
+  --bg-soft: #e9f4ef;
+  --primary: #033431;
+  --primary-dark: #0b4f4a;
+  --accent: #f4b942;
+  --text: #1f2937;
+  --muted: #526071;
+  --card: #ffffff;
+  --shadow: rgba(15, 23, 42, 0.12);
+}
+
+section {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  font-size: 28px;
+  padding: 48px 58px;
+  background: linear-gradient(135deg, #f8fafc 0%, #edf6f2 100%);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 800;
+  color: var(--primary-dark);
+  margin: 0 0 0.5em 0;
+}
+
+h1 {
+  font-size: 1.9em;
+  color: #033431;
+}
+
+h2 {
+  font-size: 1.35em;
+  color: var(--primary-dark);
+  border-bottom: 2px solid rgba(15, 118, 110, 0.2);
+  padding-bottom: 8px;
+  margin-bottom: 18px;
+}
+
+h3 {
+  font-size: 1.1em;
+  color: #1d4ed8;
+}
+
+p, li {
+  font-size: 0.8em;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+strong {
+  color: var(--primary-dark);
+}
+
+ul, ol {
+  margin-top: 0.5em;
+  margin-bottom: 0.7em;
+  padding-left: 1.2em;
+}
+
+li {
+  margin-bottom: 0.25em;
+}
+
+blockquote {
+  border-left: 4px solid var(--accent);
+  background: rgba(244, 185, 66, 0.12);
+  padding: 12px 18px;
+  border-radius: 10px;
+  color: var(--text);
+  margin: 18px 0;
+}
+
+img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+section.title {
+  background: linear-gradient(135deg, #f5f7fb 0%, #eef7f4 100%);
+  color: #111827;
+}
+
+section.title h1,
+section.title h2,
+section.title h3,
+section.title p,
+section.title li {
+  color: #111827;
+}
+
+.logo-row {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  width: 100% !important;
+  margin: 0 0 22px 0 !important;
+  padding: 0 6px;
+}
+
+.logo-row img {
+  width: 170px !important;
+  height: auto !important;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 16px rgba(15, 23, 42, 0.12));
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.25);
+  padding: 6px 10px;
+}
+
+section.dark {
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+section.dark h1,
+section.dark h2,
+section.dark h3,
+section.dark p,
+section.dark li {
+  color: #e2e8f0;
+}
+
+section.dark h2 {
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+}
+
+header,
+footer {
+  color: var(--muted);
+  font-size: 0.46em;
+}
+
+/* Amélioration des diapositives de plan */
+section.plan ol {
+  list-style: decimal;
+  padding-left: 1.4em;
+}
+
+section.plan li {
+  margin-bottom: 0.35em;
+}

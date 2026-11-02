@@ -3,14 +3,20 @@ marp: true
 theme: gaia
 paginate: true
 size: 16:9
+style: |
+  @import './style.css';
 header: "Projet Technique - Solicode"
-footer: "Khadija Gerrouj"
+footer: "solicode"
 ---
 
-# Introduction
-![width:200px](images/ofppt.png)    ![width:200px](images/solicode.png)
+<!-- _class: title -->
 
-# Plateforme Gestion de bibliothèque :
+<div class="logo-row">
+  <img src="images/ofppt.png" alt="Logo OFPPT">
+  <img src="images/solicode.png" alt="Logo Solicode">
+</div>
+
+# Plateforme Gestion de bibliothèque
 
 ###### Système de Gestion Intégré pour bibliothéque Modernes
 
@@ -18,9 +24,6 @@ footer: "Khadija Gerrouj"
 **Encadrant :** ES-Sarraj Fouad
 
 ---
-<!-- _backgroundColor: #FCE4EC -->
-<!-- _color: #333333 -->
-
 # Plan de présentation
 
 1. Introduction
