@@ -210,12 +210,12 @@ style: |
 ---
 
 <!-- _class: lead -->
-![Solicode](logo_solicode.png) ![Ofppt](ofppt_logo.png)
+![Solicode](image/ofppt.png) ![Ofppt](image/solicode.png)
 # LAB STARTER
 
 **Configuration de l'environnement de développement**
 
-**Réalisée par :** Ranya Amzghar
+**Réalisée par :** khadija Gerrouj
 **Encadrée par :** Essarraj Fouad
 
 <!-- Je vais vous présenter le Lab Starter et la préparation de mon environnement de travail. -->
