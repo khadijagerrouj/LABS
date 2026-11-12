@@ -1,0 +1,42 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.jj": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "lab-starter": true,
+        "lab-stack": true,
+        "lab-promt-task": true,
+        "lab-planning": true,
+        "lab-php": true,
+        "lab-mvc": true,
+        "lab-listes": true,
+        "lab-marp": true,
+        "lab-laravel": true,
+        "lab-git": true,
+        "lab-markdown": true,
+        "lab-erreur-js": true,
+        "lab-antigravity": true,
+        "lab": true,
+        "lab-agent": true
+    },
+    "hide-files.files": [
+        "lab-starter",
+        "lab-stack",
+        "lab-promt-task",
+        "lab-planning",
+        "lab-php",
+        "lab-mvc",
+        "lab-listes",
+        "lab-marp",
+        "lab-laravel",
+        "lab-git",
+        "lab-markdown",
+        "lab-erreur-js",
+        "lab-antigravity",
+        "lab",
+        "lab-agent"
+    ]
+}
