@@ -12,7 +12,7 @@ Utiliser cette skill pour créer ou modifier un fichier de présentation Marp (`
 - Commencer par un frontmatter YAML valide avec `marp: true`, un thème, la pagination et le format `16:9`.
 - Séparer chaque diapositive par `---`.
 - Pour un lab, suivre cet ordre :
-  1. Titre du lab et identification de l'étudiant et de l'encadrant.
+  1. Titre du lab et identification de l'étudiant et de l'encadrant.(etudient:Khadija Gerrouj,encadrent:Essarraj Fouad)est les images 'ofppt-logo.png','solicode-logo.png.
   2. Plan de présentation.
   3. Introduction et stack technique.
   4. Définitions des notions clés.
