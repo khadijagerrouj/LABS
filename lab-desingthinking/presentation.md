@@ -23,11 +23,27 @@ style: |
     background-color: #2563eb;
     color: white;
   }
+  section.cover img[alt="OFPPT"] {
+    position: absolute;
+    top: 28px;
+    left: 48px;
+    width: 150px;
+  }
+  section.cover img[alt="Solicode"] {
+    position: absolute;
+    top: 40px;
+    right: 48px;
+    width: 210px;
+  }
 ---
 
-<!-- _class: lead -->
+<!-- _class: lead cover -->
 <!-- _header: "" -->
 <!-- _footer: "" -->
+
+![OFPPT](images/ofppt-logo.png)
+
+![Solicode](images/solicode-logo.png)
 
 # LAB : DESIGN THINKING
 
@@ -228,14 +244,6 @@ Partie orale :
 
 # Merci pour votre attention !
 
-<br>
-
-**Avez-vous des questions ?**
-
-<br>
-
-**Présenté par :** Khadija Gerrouj  
-**Encadré par :** ES-Sarraj Fouad  
 
 <!--
 Partie orale :
