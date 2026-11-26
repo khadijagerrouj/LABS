@@ -71,10 +71,13 @@ img {
 
 1. Définition du Debugging
 2. Outils nécessaires
-3. Installation
-4. Configuration
-5. Test pratique
-6. Conclusion
+3. PHP Debug dans VS Code
+4. Configuration du Debugging
+5. Lancer le Debugging
+6. Test pratique
+7. Utiliser le Debugging
+8. Les éléments importants
+9. Conclusion
 
 ---
 
@@ -108,42 +111,47 @@ Dans VS Code :
 - Rechercher PHP Debug.
 - Cliquer sur Install.
 
-### 2. Xdebug
-
-Télécharger depuis le site officiel :
-
-https://xdebug.org/download
 
 ---
 
-## 4. Configuration
+## 3. PHP Debug dans VS Code
 
-Dans le fichier `php.ini`, ajouter :
+PHP Debug est une extension qui permet de déboguer le code PHP dans Visual Studio Code.
 
-```ini
-zend_extension="chemin/vers/php_xdebug.dll"
-xdebug.mode=debug
-xdebug.start_with_request=yes
-xdebug.client_port=9003
-```
+**Installation :**
 
-Le chemin doit correspondre à l'emplacement réel du fichier Xdebug.
+1. Ouvrir VS Code.
+2. Aller dans Extensions.
+3. Rechercher PHP Debug.
+4. Cliquer sur Install.
 
 ---
 
-## 5. Vérification
+## 4. Configuration du Debugging
 
-Dans le terminal :
+Pour configurer le Debugging :
 
-```bash
-php -v
-```
+1. Ouvrir le projet PHP.
+2. Aller dans Run and Debug.
+3. Cliquer sur Create a launch.json file.
+4. Choisir PHP.
 
-Vérifier que Xdebug apparaît dans les informations PHP.
-
-Ensuite, préparer `launch.json` dans VS Code avec le port `9003`.
+VS Code crée le fichier `launch.json` pour configurer le Debugging.
 
 ---
+
+## 5. Lancer le Debugging
+
+1. Ouvrir un fichier PHP.
+2. Ajouter un Breakpoint (point rouge).
+3. Ouvrir Run and Debug.
+4. Appuyer sur F5.
+5. Observer les variables et suivre l'exécution du code.
+
+**Important :** Xdebug doit être installé et configuré pour utiliser le Debugging PHP.
+
+---
+
 
 ## 6. Test pratique
 
